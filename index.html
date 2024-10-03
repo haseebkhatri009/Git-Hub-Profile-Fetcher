@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>GitHub Profile Fetcher</title>
+</head>
+<body>
+    <h1 id="h1">GitHub Profile Fetcher</h1>
+
+    <form id="form">
+        <!-- <label for="username">Enter GitHub Username:</label><br> -->
+        <input type="text" id="username" name="username" placeholder="GitHub Username" required><br>
+        <button id="btn" type="submit">Fetch Profile</button>
+    </form>
+
+    <div id="message" class="error-message"></div>
+    
+    <div class="profile-container" id="main-div">
+        <img id="img" alt="" />
+        <p id="name"></p>
+        <p id="public"></p>
+        <p id="follower"></p>
+        <p id="following"></p>
+  
+        <a id="link" href=""> </a>
+        <!-- <img id="avatar" src="" alt="Profile Picture" width="100">
+        <h2 id="name"></h2>
+        <p id="bio"></p>
+        <p id="follower"></p>
+        <p id="following"></p>
+        <a id="profile-link" href="" target="_blank">View Profile on GitHub</a> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>

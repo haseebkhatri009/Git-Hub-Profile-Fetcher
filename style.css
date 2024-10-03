@@ -1,0 +1,199 @@
+/* body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.profile-container {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: none;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-container img {
+    border-radius: 50%;
+}
+.error-message {
+    color: red;
+} */
+body{
+    background-color: gray;
+}
+#h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+}
+#form{
+    /* border: 1px solid; */
+    width: 300px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 39%;
+}
+
+#username{
+    margin-left: 65px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 150px;
+}
+#btn{
+    margin-left: 88px;
+    /* border-radius: 5px; */
+    border: 1px solid;
+    background-color: rgb(192, 178, 178);
+
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(184, 167, 167);
+}
+#message{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#main-div{
+    /* border: 1px solid; */
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    left: 38%;
+    margin-top: 30px;
+    /* background-color: rgb(194, 180, 180); */
+}
+@media (min-width:850px) and (max-width:950px){
+    #form{
+        position: relative;
+        left: 37%;
+    }
+    #main-div{
+        position: relative;
+        left: 35%;
+    }
+}
+@media (min-width:800px) and (max-width:850px){
+    #form{
+        position: relative;
+        left: 30%;
+    }
+    #main-div{
+        position: relative;
+        left: 30%;
+    }
+}
+@media (min-width:650px) and (max-width:800px){
+    #form{
+        position: relative;
+        left: 28%;
+    }
+    #main-div{
+        position: relative;
+        left: 28%;
+    }
+}
+@media (min-width:600px) and (max-width:650px){
+    #form{
+        position: relative;
+        left: 25%;
+    }
+    #main-div{
+        position: relative;
+        left: 25%;
+    }
+}
+@media (min-width:550px) and (max-width:600px){
+    #form{
+        position: relative;
+        left: 20%;
+    }
+    #main-div{
+        position: relative;
+        left: 20%;
+    }
+}
+@media (min-width:500px) and (max-width:550px){
+    #form{
+        position: relative;
+        left: 17%;
+    }
+    #main-div{
+        position: relative;
+        left: 17%;
+    }
+}
+@media (min-width:450px) and (max-width:500px){
+    #form{
+        position: relative;
+        left: 14%;
+    }
+    #main-div{
+        position: relative;
+        left: 14%;
+    }
+}
+@media (min-width:400px) and (max-width:450px){
+    #form{
+        position: relative;
+        left: 10%;
+    }
+    #main-div{
+        position: relative;
+        left: 10%;
+    }
+}
+@media (min-width:200px) and (max-width:400px){
+    #form{
+        position: relative;
+        left: 0%;
+    }
+    #main-div{
+        position: relative;
+        left: 0%;
+    }
+    #h1{
+        text-align: start;
+    }
+    #message{
+        text-align: start;
+    }
+}
+#img{
+    height: 120px;
+    border-radius: 60px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+#name{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+    bottom: 12px;
+
+}
+#public{
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+#follower{
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+#following{
+    margin-left: 15px;
+    margin-bottom: 38px;
+    font-family: sans-serif;
+}
+#link{
+    margin-left: 38px;
+    text-decoration: none;
+}
